@@ -20,8 +20,8 @@ def get_info():
         return jsonfiy({"error": "Invalid UTC offset"}), 400
 
     
-    github_file_path = "https://github.com/Deedeo/HNG_intership/blob/stage_one/main.py"
-    github_repo_url = "https://github.com/Deedeo/HNG_intership"
+    github_file_path = "https://github.com/Deedeo/HNG_intership/blob/main/Stage_one/main.py"
+    github_repo_url = "https://github.com/Deedeo/HNG_intership/tree/main"
 
     response_data = {
         "slack_name": slack_name,
