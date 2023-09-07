@@ -1,5 +1,5 @@
 import json
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 from datetime import datetime
 import pytz
 
@@ -36,7 +36,14 @@ def get_info():
 
     json_response = json.dumps(response_data, indent=2)
 
-    return json_response
+
+    json_response = json_response.replace(',', ',\n')
+
+
+    response = Response(json_response, content_type="application/json")
+
+
+    return response
 
 
 if __name__== "__main__":
