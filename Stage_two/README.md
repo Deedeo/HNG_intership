@@ -208,6 +208,10 @@ Environment Variable in settings.py:
 [UML Diagram](https://lucid.app/lucidchart/c2d5ba89-88f6-4699-85ef-a7dbda195ca4/edit?viewport_loc=-69%2C159%2C2540%2C1336%2C0_0&invitationId=inv_9f4d7d31-1a29-4793-8c46-e12a1e1fc14a)
 
 
+![UML Diagram](https://github.com/Deedeo/HNG_intership/blob/main/Stage_two/image/uml-diagram.png)
+
+
+
 ### Testing Script
 
 - The "test.py" file is the testing script for this application.
