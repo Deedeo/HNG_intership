@@ -43,7 +43,7 @@ pip install requiremnents.txt
 
 3. Configure the Database connection:
 
-- database_url = URL of your database.
+    - database_url = URL of your database.
 
 4. Start the server:
 
