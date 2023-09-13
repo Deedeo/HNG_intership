@@ -21,10 +21,10 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 ## Prerequisites
 Before you begin using the Django Person Management API, make sure you have the following prerequisites in place:
 
-Python (3.6 or higher) installed on your system.
-Git for cloning the project repository.
-PostgreSQL database or another database of your choice configured and accessible.
-Django framework installed.
+- Python (3.6 or higher) installed on your system.
+- Git for cloning the project repository.
+- PostgreSQL database or another database of your choice configured and accessible.
+- Django framework installed.
 
 
 
@@ -41,9 +41,9 @@ cd Stage_two
 pip install requiremnents.txt
 ```
 
-3. Configure the Database connection:
+3. Configure the Database connection in the settings.py file:
 
-    - database_url = URL of your database.
+    >  database_url = URL of your database.
 
 4. Start the server:
 
